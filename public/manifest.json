@@ -1,0 +1,26 @@
+{
+  "short_name": "Zilcon Admin.",
+  "name": "Zilcon Admin.",
+  "icons": [
+    {
+      "src": "/favicon-z.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-z.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-z.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#000000",
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#ffffff"
+}
