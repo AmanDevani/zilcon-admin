@@ -1,0 +1,19 @@
+{
+  "token": {
+    "colorPrimary": "#545F71",
+    "radiusBase": "4px",
+    "controlRadius": "4px",
+    "colorLink": "#ffffff",
+    "colorLinkActive": "#ffffff",
+    "colorLinkHover": "#ffffff",
+    "colorBgLayout": "#ffffff"
+  },
+  "components": {
+    "Menu": {
+      "itemSelectedBg": "#EEF1F4",
+      "itemHoverBg": "#545F71",
+      "itemHoverColor": "#EEF1F4",
+      "itemSelectedColor": "#545F71"
+    }
+  }
+}

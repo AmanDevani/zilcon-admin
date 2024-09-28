@@ -1,0 +1,28 @@
+@import url('../../styles/variable.less');
+
+.breadcrumb-item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  z-index: 11;
+
+  @media @screen1150 {
+    font-size: 16px;
+  }
+}
+
+.active {
+  color: @black-color;
+  font-weight: bold;
+}
+
+.clickable {
+  color: @black-color;
+}

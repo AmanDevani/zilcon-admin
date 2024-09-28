@@ -1,0 +1,83 @@
+@import url('../../../styles/variable.less');
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-inline-end: 1px solid @border-color;
+
+  .sidebar-scroll {
+    overflow-y: auto;
+    height: 100%;
+    .ant-menu {
+      .ant-menu-item {
+        .ant-menu-title-content {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .logo-divider {
+    margin: 0;
+  }
+  .sidebar-logo {
+    cursor: pointer;
+    width: 64%;
+    height: auto;
+    margin: 16px auto;
+  }
+
+  .ant-menu {
+    &:first-child {
+      overflow: auto;
+    }
+
+    :not(:last-child).ant-menu-submenu {
+      border-bottom: 1px solid @border-color;
+      border-radius: 0;
+      margin-bottom: 24px;
+    }
+  }
+
+  .ant-menu-light.ant-menu-root.ant-menu-inline,
+  .ant-menu-light.ant-menu-root.ant-menu-vertical {
+    border: 0;
+  }
+  .add-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .app-btn-width {
+    width: 32px;
+  }
+}
+
+.menu-bar {
+  font-weight: 500;
+  flex: 1;
+}
+
+.profile-bar {
+  font-weight: 500;
+}
+.ant-layout .ant-layout-sider-trigger {
+  background-color: #b6b4b3;
+  border: 1px solid #8b8b8b;
+  border-bottom: 0;
+  border-left: 0;
+  color: #000;
+}
+.sidebar .profile-menu .ant-menu .ant-menu-submenu .ant-menu-submenu-title {
+  border-radius: 0;
+  border-top: 1px solid #8b8b8b;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 6px 12px;
+  width: 100%;
+}
+// override the sidebar padding
+.ant-layout-content.wrapper {
+  padding: 0;
+}
